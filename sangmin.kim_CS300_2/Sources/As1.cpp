@@ -46,7 +46,7 @@ As1::As1()
 	light->SetPosition(Point(0.f, 10.f, 1.f));
 
 	plane = new Object("../Objs/cube.obj", &objMat, phongShader);
-	plane->SetPosition(Point(-.8f, -.2f, -1.6f));
+	plane->SetPosition(Point(0.f, -.2f, -1.6f));
 	plane->Set_Scale(Vector(1.5f, .3f, 1.5f));
 
 	std::vector<Color_Val> colorVec;
